@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(202, 218, 248) ;
+}
+    
+main, header{
+    background-color:rgb(202, 218, 248) ;
+    padding-bottom: 3rem;
+}
+
+.cards{
+    margin-top:3rem;
+}
+#banner{
+    box-shadow: 12px 12px 5px 4px rgb(0, 0, 255, .2);
+    border-radius: 15%;
+
+}
+
+span{
+    font-size: 35px;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paragraphe{
+    text-align: justify;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 1rem;
+    color: rgb(100, 99, 99);
+    line-height: 2;
+
+}
+
+#titre{
+    font-style: italic;
+    font-weight: bold;   
+}
+
+#menu, #footer {
+    background-color: darkblue;
+    
+}
+#menu ul a, #footer ul a {
+    color: white;
+}
+#menu ul {
+    margin-left: 60vw;
+}
+#menu ul li ,#menu2 ul li, #footer ul li {
+    margin-left:2rem;
+}
+
+#menu ul a:hover ,#footer ul a:hover {
+    color: darkblue;
+    background-color: white;
+}
+#menu2 ul a {
+    font-size: 18px;
+    color: black;
+
+}
+
+#menu2 ul a:hover{
+    color: red;
+}
+#menu2 ul {
+    margin-left: 31vw;
+}
+
+i{
+    color:white;
+    margin-left: 2rem;
+
+}
+
+#search{
+display:none;
+}
+
+.display{
+    display: block;
+}
+
